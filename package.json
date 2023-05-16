@@ -1,0 +1,35 @@
+{
+  "name": "aditya-console-colorify",
+  "version": "1.0.0",
+  "description": "This is a npm package to color your console.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityajawanjal/aditya-console-colorify.git"
+  },
+  "keywords": [
+    "console",
+    "color",
+    "color",
+    "text",
+    "in",
+    "console",
+    "simple"
+  ],
+  "author": "Aditya Jawanjal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adityajawanjal/aditya-console-colorify/issues"
+  },
+  "homepage": "https://github.com/adityajawanjal/aditya-console-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": ["lib/**/*"]
+}
